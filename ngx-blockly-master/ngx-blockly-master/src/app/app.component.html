@@ -1,0 +1,12 @@
+<ngx-blockly
+    #blockly
+    [config]="config"
+    [readOnly]="readOnly"
+    [customBlocks]="customBlocks"
+    (javascriptCode)="onCode($event)"
+    (pythonCode)="onCode($event)"
+    (luaCode)="onCode($event)"
+    (xmlCode)="onCode($event)"
+    (dartCode)="onCode($event)"
+    (phpCode)="onCode($event)">
+</ngx-blockly>
